@@ -33,3 +33,12 @@ Wolf AI: Uma assistente de marca dedicada a dar suporte completo ao nosso sistem
 
 Melhorias Contínuas: Estamos sempre aprimorando nossas funcionalidades. Consulte o histórico de commits para ver as atualizações mais recentes.
 
+Contribuições da Equipe
+
+Este projeto é resultado da colaboração de uma equipe dedicada. Agradecemos o empenho de cada membro em suas respectivas áreas:
+
+- Nicolly Rodrigues de Souza Santos: Liderou a equipe na fase de design e documentação, sendo a principal responsável pela prototipação do dashboard no Figma e pela criação e estruturação do arquivo README.md.
+
+- Maria Eduarda Braga: Contribuiu ativamente com a prototipação do dashboard no Figma.
+
+- Manuela Maestro: Focou no desenvolvimento frontend, implementando o projeto em HTML e CSS.

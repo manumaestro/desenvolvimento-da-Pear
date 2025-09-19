@@ -1,6 +1,6 @@
-README - Pear Phone
+README - Pear
 
-Bem-vindo ao repositório oficial da Pear Phone, o futuro da tecnologia móvel. Nossa missão é criar dispositivos que não apenas atendam, mas superem as expectativas de nossos clientes, combinando design elegante, desempenho robusto e um ecossistema de software intuitivo.
+Bem-vindo ao repositório oficial da Pear, o futuro da tecnologia móvel. Nossa missão é criar dispositivos que não apenas atendam, mas superem as expectativas de nossos clientes, combinando design elegante, desempenho robusto e um ecossistema de software intuitivo.
 
 Nossos Produtos
 Desenvolvemos uma linha de produtos de ponta que integra hardware e software de forma perfeita para uma experiência de usuário sem igual.
@@ -42,3 +42,4 @@ Este projeto é resultado da colaboração de uma equipe dedicada. Agradecemos o
 - Maria Eduarda Braga: Contribuiu ativamente com a prototipação do dashboard no Figma.
 
 - Manuela Maestro: Focou no desenvolvimento frontend, implementando o projeto em HTML e CSS.
+

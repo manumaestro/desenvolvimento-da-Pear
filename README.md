@@ -1,4 +1,5 @@
 README - Pear Phone
+
 Bem-vindo ao repositório oficial da Pear Phone, o futuro da tecnologia móvel. Nossa missão é criar dispositivos que não apenas atendam, mas superem as expectativas de nossos clientes, combinando design elegante, desempenho robusto e um ecossistema de software intuitivo.
 
 Nossos Produtos
@@ -31,3 +32,4 @@ Pear OS: Nosso sistema operacional proprietário, conhecido por sua fluidez, sim
 Wolf AI: Uma assistente de marca dedicada a dar suporte completo ao nosso sistema operacional, oferecendo assistência e soluções integradas para aprimorar a experiência do usuário.
 
 Melhorias Contínuas: Estamos sempre aprimorando nossas funcionalidades. Consulte o histórico de commits para ver as atualizações mais recentes.
+

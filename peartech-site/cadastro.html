@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - PearTech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black flex items-center justify-center h-screen text-white">
+
+  <div class="bg-gray-900 p-8 rounded-xl w-full max-w-md shadow-[0_0_20px_rgba(0,191,165,0.5)]">
+    <h1 class="text-3xl font-bold mb-6 text-center text-green-400">Cadastro</h1>
+    <form id="registerForm" class="flex flex-col gap-4">
+      <input type="text" id="name" placeholder="Nome" class="p-2 rounded bg-gray-800 text-white border-2 border-green-400 focus:border-green-300 focus:ring-1 focus:ring-green-300" required>
+      <input type="email" id="email" placeholder="Email" class="p-2 rounded bg-gray-800 text-white border-2 border-green-400 focus:border-green-300 focus:ring-1 focus:ring-green-300" required>
+      <input type="password" id="password" placeholder="Senha" class="p-2 rounded bg-gray-800 text-white border-2 border-green-400 focus:border-green-300 focus:ring-1 focus:ring-green-300" required>
+      <button type="submit" class="bg-green-400 text-black font-bold p-2 rounded mt-2 hover:bg-green-300 transition-all">Cadastrar</button>
+    </form>
+    <p class="mt-4 text-center text-gray-400">Já tem uma conta? <a href="login.html" class="text-green-400 hover:text-green-300">Login</a></p>
+  </div>
+
+  <script>
+    const registerForm = document.getElementById('registerForm');
+
+    registerForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+
+      const user = { name, email, password };
+      localStorage.setItem('user', JSON.stringify(user));
+
+      alert('Cadastro realizado com sucesso!');
+      window.location.href = 'login.html';
+    });
+  </script>
+
+</body>
+</html>

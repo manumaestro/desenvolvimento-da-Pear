@@ -321,8 +321,7 @@
 
   // Processar pagamento (checkout)
   function processCheckout(event) {
-    event.preventDefault();
-
+    event.preventDefault()
     const form = event.target;
     const cardName = form.cardName.value.trim();
     const cardNumber = form.cardNumber.value.trim();

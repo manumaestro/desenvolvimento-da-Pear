@@ -1,4 +1,4 @@
-README - Pear
+README - Pear Tech
 
 Bem-vindo ao repositório oficial da Pear, o futuro da tecnologia móvel. Nossa missão é criar dispositivos que não apenas atendam, mas superem as expectativas de nossos clientes, combinando design elegante, desempenho robusto e um ecossistema de software intuitivo.
 
@@ -37,9 +37,8 @@ Contribuições da Equipe
 
 Este projeto é resultado da colaboração de uma equipe dedicada. Agradecemos o empenho de cada membro em suas respectivas áreas:
 
-- Nicolly Rodrigues de Souza Santos: Liderou a equipe na fase de design e documentação, sendo a principal responsável pela prototipação do dashboard no Figma e pela criação e estruturação do arquivo README.md.
+- **Nicolly Rodrigues de Souza Santos:** Foi uma das **principais responsáveis pelo desenvolvimento frontend em HTML e CSS** (juntamente com Manuela Maestro), atuou na **produção dos slides da apresentação** (juntamente com Maria Eduarda Braga), e liderou a equipe na fase de design e documentação, sendo a principal responsável pela prototipação do dashboard no Figma e pela criação e estruturação do arquivo README.md.
 
-- Maria Eduarda Braga: Contribuiu ativamente com a prototipação do dashboard no Figma.
+- **Maria Eduarda Braga:** Contribuiu ativamente com a prototipação do dashboard no Figma e na **produção dos slides da apresentação** (juntamente com Nicolly Rodrigues de Souza Santos).
 
-- Manuela Maestro: Focou no desenvolvimento frontend, implementando o projeto em HTML e CSS.
-
+- **Manuela Maestro:** Foi uma das **principais responsáveis pelo desenvolvimento frontend**, implementando o projeto em **HTML e CSS** (juntamente com Nicolly Rodrigues de Souza Santos).

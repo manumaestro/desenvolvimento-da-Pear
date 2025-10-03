@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PearTech</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { background-color: #0a0a0a; color: #fff; }
-    .gradient-text { background: linear-gradient(135deg,#60a5fa,#34d399);
-      -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .gradient-text { 
+      background: linear-gradient(135deg,#60a5fa,#34d399);
+      -webkit-background-clip:text; 
+      -webkit-text-fill-color:transparent; 
+    }
     .product-card { transition: all 0.5s ease; }
     .product-card:hover { transform: scale(1.05); }
     .product-image { transition: transform 0.5s ease; }
@@ -21,7 +24,7 @@
 <header class="fixed top-0 left-0 w-full bg-black/70 backdrop-blur z-50">
   <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
     <a href="index.html" class="flex items-center">
-      <img src="assets/img/logo.png" alt="PearTech" class="w-8 h-8">
+      <img src="assets/img/logo.png" alt="PearTech" class="w-8 h-8" />
     </a>
     <nav class="hidden md:flex space-x-6">
       <a href="index.html" class="text-blue-400">Início</a>
@@ -59,7 +62,7 @@
 
     <!-- PearPhone -->
     <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/pearphone.png" alt="PearPhone" class="w-full h-48 object-cover product-image">
+      <img src="assets/img/pearphone.png" alt="PearPhone" class="w-full h-48 object-cover product-image" />
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearPhone</h3>
         <p class="text-gray-400">Smartphone premium.</p>
@@ -69,7 +72,7 @@
 
     <!-- PearBook -->
     <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/pearbook.png" alt="PearBook" class="w-full h-48 object-cover product-image">
+      <img src="assets/img/pearbook.png" alt="PearBook" class="w-full h-48 object-cover product-image" />
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearBook</h3>
         <p class="text-gray-400">Notebook poderoso.</p>
@@ -79,7 +82,7 @@
 
     <!-- PearWatch -->
     <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/pearwatch.png" alt="PearWatch" class="w-full h-48 object-cover product-image">
+      <img src="assets/img/pearwatch.png" alt="PearWatch" class="w-full h-48 object-cover product-image" />
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearWatch</h3>
         <p class="text-gray-400">Relógio inteligente.</p>
@@ -89,7 +92,7 @@
 
     <!-- PearVision -->
     <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/pearvision.png" alt="PearVision" class="w-full h-48 object-cover product-image">
+      <img src="assets/img/pearvision.png" alt="PearVision" class="w-full h-48 object-cover product-image" />
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearVision</h3>
         <p class="text-gray-400">Óculos de realidade aumentada.</p>
@@ -99,7 +102,7 @@
 
     <!-- PearPods -->
     <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/pearpods.png" alt="PearPods" class="w-full h-48 object-cover product-image">
+      <img src="assets/img/pearpods.png" alt="PearPods" class="w-full h-48 object-cover product-image" />
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearPods</h3>
         <p class="text-gray-400">Fones sem fio premium.</p>
@@ -109,7 +112,7 @@
 
     <!-- Acessórios -->
     <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/acessorios.png" alt="Acessórios" class="w-full h-48 object-cover product-image">
+      <img src="assets/img/acessorios.png" alt="Acessórios" class="w-full h-48 object-cover product-image" />
       <div class="p-4">
         <h3 class="text-xl font-semibold">Acessórios</h3>
         <p class="text-gray-400">Tudo para complementar seu PearTech.</p>
@@ -117,6 +120,27 @@
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- Tecnologias -->
+<section id="tecnologias" class="py-16 px-6 max-w-7xl mx-auto text-center">
+  <h2 class="text-3xl font-bold mb-8 gradient-text">Tecnologias Exclusivas</h2>
+
+  <!-- Wolf AI -->
+  <div class="mb-12">
+    <h3 class="text-2xl font-semibold mb-2">Wolf AI</h3>
+    <p class="max-w-xl mx-auto text-gray-400">
+      A inteligência artificial avançada da PearTech, oferecendo personalização e automação que transformam seu dia a dia.
+    </p>
+  </div>
+
+  <!-- Pear OS -->
+  <div>
+    <h3 class="text-2xl font-semibold mb-2">Pear OS</h3>
+    <p class="max-w-xl mx-auto text-gray-400">
+      Sistema operacional exclusivo da PearTech, otimizado para desempenho e segurança em todos os dispositivos.
+    </p>
   </div>
 </section>
 
@@ -133,7 +157,7 @@
   </div>
   <ul id="cartItems" class="p-4 space-y-2 text-gray-300"></ul>
   <div class="p-4 border-t border-gray-700">
-    <button class="w-full bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full">Finalizar Compra</button>
+    <button onclick="openCheckout()" class="w-full bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full">Finalizar Compra</button>
   </div>
 </div>
 
@@ -142,15 +166,47 @@
   🛒
 </button>
 
+<!-- Modal de Checkout -->
+<div id="checkoutModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-60 hidden">
+  <div class="bg-gray-900 rounded-lg p-6 w-96 max-w-full text-white relative">
+    <button onclick="closeCheckout()" class="absolute top-3 right-3 text-red-400 text-xl font-bold">×</button>
+    <h3 class="text-2xl mb-4 font-bold gradient-text">Finalizar Compra</h3>
+    <div id="checkoutContent">
+      <!-- Conteúdo dinâmico login ou checkout -->
+    </div>
+  </div>
+</div>
+
 <script>
   let cart = [];
+  let isLoggedIn = false; // Simulação de login
+
+  // Produtos e preços 
+  const products = {
+    PearPhone: { name: "PearPhone", price: 3999.90 },
+    PearBook: { name: "PearBook", price: 7599.90 },
+    PearWatch: { name: "PearWatch", price: 1499.90 },
+    PearVision: { name: "PearVision", price: 2699.90 },
+    PearPods: { name: "PearPods", price: 899.90 },
+    "Acessórios": { name: "Acessórios", price: 199.90 }
+  };
 
   function toggleCart() {
     document.getElementById("cartSidebar").classList.toggle("translate-x-full");
   }
 
-  function addToCart(product) {
-    cart.push(product);
+  function addToCart(productKey) {
+    const product = products[productKey];
+    if(!product) return;
+
+    // Verifica se já está no carrinho, incrementa quantidade
+    let item = cart.find(i => i.name === product.name);
+    if (item) {
+      item.quantity++;
+    } else {
+      cart.push({ name: product.name, price: product.price, quantity: 1 });
+    }
+
     renderCart();
     toggleCart(); // abre o carrinho ao adicionar
   }
@@ -158,11 +214,18 @@
   function renderCart() {
     const cartItems = document.getElementById("cartItems");
     cartItems.innerHTML = "";
+
+    if(cart.length === 0) {
+      cartItems.innerHTML = '<li class="text-center text-gray-500">Carrinho vazio.</li>';
+      return;
+    }
+
     cart.forEach((item, index) => {
       cartItems.innerHTML += `
         <li class="flex justify-between items-center">
-          <span>${item}</span>
-          <button onclick="removeFromCart(${index})" class="text-red-400">Remover</button>
+          <span>${item.name} (${item.quantity})</span>
+          <span>R$ ${(item.price * item.quantity).toFixed(2).replace('.', ',')}</span>
+          <button onclick="removeFromCart(${index})" class="text-red-400 ml-2">Remover</button>
         </li>
       `;
     });
@@ -172,6 +235,131 @@
     cart.splice(index, 1);
     renderCart();
   }
+
+  // Abrir modal de checkout
+  function openCheckout() {
+    if(cart.length === 0){
+      alert("Seu carrinho está vazio!");
+      return;
+    }
+
+    const modal = document.getElementById("checkoutModal");
+    const content = document.getElementById("checkoutContent");
+
+    if (!isLoggedIn) {
+      // Mostrar formulário de login
+      content.innerHTML = `
+        <form id="loginForm" onsubmit="processLogin(event)" class="space-y-4">
+          <p class="mb-2 text-red-400 font-semibold">Você precisa fazer login para continuar.</p>
+          <div>
+            <label for="email" class="block mb-1 font-semibold">Email</label>
+            <input type="email" id="email" required class="w-full rounded px-3 py-2 bg-gray-800 border border-gray-700 text-white" />
+          </div>
+          <div>
+            <label for="password" class="block mb-1 font-semibold">Senha</label>
+            <input type="password" id="password" required class="w-full rounded px-3 py-2 bg-gray-800 border border-gray-700 text-white" />
+          </div>
+          <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 py-2 rounded-full font-semibold">Entrar</button>
+        </form>
+      `;
+    } else {
+      // Mostrar formulário de pagamento
+      showPaymentForm();
+    }
+
+    modal.classList.remove("hidden");
+  }
+
+  // Fechar modal
+  function closeCheckout() {
+    document.getElementById("checkoutModal").classList.add("hidden");
+  }
+
+  // Processar login simulado
+  function processLogin(event) {
+    event.preventDefault();
+    // Simulação: aceita qualquer email e senha para login
+    isLoggedIn = true;
+
+    // Após login, mostrar o formulário de pagamento
+    showPaymentForm();
+  }
+
+  // Mostrar formulário de pagamento
+  function showPaymentForm() {
+    const content = document.getElementById("checkoutContent");
+    content.innerHTML = `
+      <form id="checkoutForm" class="space-y-4" onsubmit="processCheckout(event)">
+        <div>
+          <label class="block mb-1 font-semibold" for="cardName">Nome no Cartão</label>
+          <input id="cardName" name="cardName" required class="w-full rounded px-3 py-2 bg-gray-800 border border-gray-700 text-white" />
+        </div>
+        <div>
+          <label class="block mb-1 font-semibold" for="cardNumber">Número do Cartão</label>
+          <input id="cardNumber" name="cardNumber" required pattern="\\d{16}" maxlength="16" placeholder="Digite 16 números" class="w-full rounded px-3 py-2 bg-gray-800 border border-gray-700 text-white" />
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-1">
+            <label class="block mb-1 font-semibold" for="expiryDate">Validade (MM/AA)</label>
+            <input id="expiryDate" name="expiryDate" required pattern="\\d{2}/\\d{2}" placeholder="MM/AA" maxlength="5" class="w-full rounded px-3 py-2 bg-gray-800 border border-gray-700 text-white" />
+          </div>
+          <div class="flex-1">
+            <label class="block mb-1 font-semibold" for="cvv">CVV</label>
+            <input id="cvv" name="cvv" required pattern="\\d{3}" maxlength="3" class="w-full rounded px-3 py-2 bg-gray-800 border border-gray-700 text-white" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block mb-1 font-semibold" for="address">Endereço de Entrega</label>
+          <textarea id="address" name="address" required rows="3" class="w-full rounded px-3 py-2 bg-gray-800 border border-gray-700 text-white"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 py-2 rounded-full font-semibold">Pagar e Finalizar</button>
+      </form>
+    `;
+  }
+
+  // Processar pagamento (checkout)
+  function processCheckout(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const cardName = form.cardName.value.trim();
+    const cardNumber = form.cardNumber.value.trim();
+    const expiryDate = form.expiryDate.value.trim();
+    const cvv = form.cvv.value.trim();
+    const address = form.address.value.trim();
+
+    if(cardNumber.length !== 16 || !/^\d{16}$/.test(cardNumber)){
+      alert("Número do cartão inválido. Deve conter 16 dígitos.");
+      return;
+    }
+    if(!/^\d{2}\/\d{2}$/.test(expiryDate)){
+      alert("Data de validade inválida. Use o formato MM/AA.");
+      return;
+    }
+    if(cvv.length !== 3 || !/^\d{3}$/.test(cvv)){
+      alert("CVV inválido. Deve conter 3 dígitos.");
+      return;
+    }
+    if(address.length < 10){
+      alert("Por favor, informe um endereço válido.");
+      return;
+    }
+
+    const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+
+    alert(`Compra finalizada com sucesso!\n\nTotal: R$ ${total.toFixed(2).replace('.', ',')}\nEndereço: ${address}`);
+
+    cart = [];
+    renderCart();
+    closeCheckout();
+    toggleCart();
+  }
+
+  // Inicializar
+  renderCart();
+
 </script>
 
 </body>

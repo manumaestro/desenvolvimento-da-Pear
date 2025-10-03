@@ -35,11 +35,6 @@
       <a href="pearpad.html">PearPad</a>
       <a href="acessorios.html">Acessórios</a>
       <a href="feedback.html">Feedback</a>
-
-       <!-- Serviços -->
-      <li><a href="pearos.html">Pear OS</a></li>
-      <li><a href="wolfai.html">Wolf AI</a></li>
-
     </nav>
   </div>
 </header>
@@ -63,76 +58,64 @@
   <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
     <!-- PearPhone -->
-    <a href="pearphone.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
+    <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
       <img src="assets/img/pearphone.png" alt="PearPhone" class="w-full h-48 object-cover product-image">
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearPhone</h3>
         <p class="text-gray-400">Smartphone premium.</p>
+        <button onclick="addToCart('PearPhone')" class="mt-3 px-4 py-2 bg-gradient-to-r from-blue-600 to-green-600 rounded-full text-sm">Comprar</button>
       </div>
-    </a>
+    </div>
 
     <!-- PearBook -->
-    <a href="pearbook.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
+    <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
       <img src="assets/img/pearbook.png" alt="PearBook" class="w-full h-48 object-cover product-image">
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearBook</h3>
         <p class="text-gray-400">Notebook poderoso.</p>
+        <button onclick="addToCart('PearBook')" class="mt-3 px-4 py-2 bg-gradient-to-r from-blue-600 to-green-600 rounded-full text-sm">Comprar</button>
       </div>
-    </a>
+    </div>
 
     <!-- PearWatch -->
-    <a href="pearwatch.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
+    <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
       <img src="assets/img/pearwatch.png" alt="PearWatch" class="w-full h-48 object-cover product-image">
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearWatch</h3>
         <p class="text-gray-400">Relógio inteligente.</p>
+        <button onclick="addToCart('PearWatch')" class="mt-3 px-4 py-2 bg-gradient-to-r from-blue-600 to-green-600 rounded-full text-sm">Comprar</button>
       </div>
-    </a>
+    </div>
 
     <!-- PearVision -->
-    <a href="pearvision.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
+    <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
       <img src="assets/img/pearvision.png" alt="PearVision" class="w-full h-48 object-cover product-image">
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearVision</h3>
         <p class="text-gray-400">Óculos de realidade aumentada.</p>
+        <button onclick="addToCart('PearVision')" class="mt-3 px-4 py-2 bg-gradient-to-r from-blue-600 to-green-600 rounded-full text-sm">Comprar</button>
       </div>
-    </a>
+    </div>
 
     <!-- PearPods -->
-    <a href="pearpods.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
+    <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
       <img src="assets/img/pearpods.png" alt="PearPods" class="w-full h-48 object-cover product-image">
       <div class="p-4">
         <h3 class="text-xl font-semibold">PearPods</h3>
         <p class="text-gray-400">Fones sem fio premium.</p>
+        <button onclick="addToCart('PearPods')" class="mt-3 px-4 py-2 bg-gradient-to-r from-blue-600 to-green-600 rounded-full text-sm">Comprar</button>
       </div>
-    </a>
+    </div>
 
     <!-- Acessórios -->
-    <a href="acessorios.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
+    <div class="product-card bg-gray-900 rounded-xl overflow-hidden">
       <img src="assets/img/acessorios.png" alt="Acessórios" class="w-full h-48 object-cover product-image">
       <div class="p-4">
         <h3 class="text-xl font-semibold">Acessórios</h3>
         <p class="text-gray-400">Tudo para complementar seu PearTech.</p>
+        <button onclick="addToCart('Acessórios')" class="mt-3 px-4 py-2 bg-gradient-to-r from-blue-600 to-green-600 rounded-full text-sm">Comprar</button>
       </div>
-    </a>
-
-    <!-- Pear OS -->
-    <a href="pearos.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/pearos.png" alt="Pear OS" class="w-full h-48 object-cover product-image">
-      <div class="p-4">
-        <h3 class="text-xl font-semibold">Pear OS</h3>
-        <p class="text-gray-400">Nosso sistema operacional fluido, seguro e privado.</p>
-      </div>
-    </a>
-
-    <!-- Wolf AI -->
-    <a href="wolfai.html" class="product-card bg-gray-900 rounded-xl overflow-hidden">
-      <img src="assets/img/wolfai.png" alt="Wolf AI" class="w-full h-48 object-cover product-image">
-      <div class="p-4">
-        <h3 class="text-xl font-semibold">Wolf AI</h3>
-        <p class="text-gray-400">Assistente inteligente integrada ao Pear OS.</p>
-      </div>
-    </a>
+    </div>
 
   </div>
 </section>
@@ -141,6 +124,55 @@
 <footer class="bg-black/80 py-6 text-center text-gray-400">
   <p>PearTech © 2025 - Todos os direitos reservados.</p>
 </footer>
+
+<!-- Carrinho lateral -->
+<div id="cartSidebar" class="fixed top-0 right-0 w-80 h-full bg-gray-900 shadow-lg transform translate-x-full transition-transform duration-500 z-50">
+  <div class="p-4 flex justify-between items-center border-b border-gray-700">
+    <h2 class="text-xl font-bold">Carrinho</h2>
+    <button onclick="toggleCart()" class="text-red-400">✖</button>
+  </div>
+  <ul id="cartItems" class="p-4 space-y-2 text-gray-300"></ul>
+  <div class="p-4 border-t border-gray-700">
+    <button class="w-full bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full">Finalizar Compra</button>
+  </div>
+</div>
+
+<!-- Botão flutuante do carrinho -->
+<button onclick="toggleCart()" class="fixed top-5 right-5 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full z-50">
+  🛒
+</button>
+
+<script>
+  let cart = [];
+
+  function toggleCart() {
+    document.getElementById("cartSidebar").classList.toggle("translate-x-full");
+  }
+
+  function addToCart(product) {
+    cart.push(product);
+    renderCart();
+    toggleCart(); // abre o carrinho ao adicionar
+  }
+
+  function renderCart() {
+    const cartItems = document.getElementById("cartItems");
+    cartItems.innerHTML = "";
+    cart.forEach((item, index) => {
+      cartItems.innerHTML += `
+        <li class="flex justify-between items-center">
+          <span>${item}</span>
+          <button onclick="removeFromCart(${index})" class="text-red-400">Remover</button>
+        </li>
+      `;
+    });
+  }
+
+  function removeFromCart(index) {
+    cart.splice(index, 1);
+    renderCart();
+  }
+</script>
 
 </body>
 </html>

@@ -3,19 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acessórios - PearTech</title>
+  <title>Feedback - PearTech</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { background-color: #0a0a0a; color: #fff; }
     .gradient-text { background: linear-gradient(135deg,#60a5fa,#34d399);
       -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    input, textarea { background-color: #1a1a1a; color: #fff; border: 1px solid #333; border-radius: 0.5rem; padding: 0.5rem; width: 100%; }
+    input:focus, textarea:focus { outline: none; border-color: #60a5fa; }
   </style>
 </head>
 <body class="font-sans">
 
 <header class="fixed top-0 left-0 w-full bg-black/70 backdrop-blur z-50">
   <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
-    <a href="index.html"><img src="assets/img/acessorios.png" alt="PearTech" class="w-8 h-8"></a>
+    <a href="index.html"><img src="./assets/img/logo.png" alt="PearTech" class="w-8 h-8"></a>
     <nav class="hidden md:flex space-x-6">
    <a href="index.html">Início</a>
    <a href="cadastro.html">Cadastro</a>
@@ -32,21 +34,24 @@
   </div>
 </header>
 
-<main class="pt-24 px-6 max-w-5xl mx-auto">
-  <h1 class="text-4xl font-bold gradient-text mb-6">Acessórios</h1>
-  <img src="assets/img/acessorios.png" alt="Acessórios PearTech" class="w-full rounded-xl mb-6">
-  <p class="text-gray-300 leading-relaxed mb-4">
-    Explore os acessórios oficiais PearTech, desenvolvidos para potencializar sua experiência com nossos produtos.
-  </p>
-  <ul class="list-disc ml-6 text-gray-400 mb-6">
-    <li>Capa protetora para PearBook</li>
-    <li>Pulseiras extras para PearWatch</li>
-    <li>Fones e carregadores oficiais</li>
-    <li>Suportes e adaptadores premium</li>
-  </ul>
-  <a href="index.html" class="inline-block px-6 py-3 bg-gradient-to-r from-blue-600 to-green-600 rounded-full">
-    Voltar à Loja
-  </a>
+<main class="pt-24 px-6 max-w-2xl mx-auto">
+  <h1 class="text-4xl font-bold gradient-text mb-6">Feedback</h1>
+  <p class="text-gray-300 mb-6">Envie sua opinião ou sugestão sobre os produtos PearTech:</p>
+  <form class="space-y-4">
+    <div>
+      <label for="nome" class="block mb-1">Nome:</label>
+      <input type="text" id="nome" placeholder="Seu nome">
+    </div>
+    <div>
+      <label for="email" class="block mb-1">Email:</label>
+      <input type="email" id="email" placeholder="seu@email.com">
+    </div>
+    <div>
+      <label for="mensagem" class="block mb-1">Mensagem:</label>
+      <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+    </div>
+    <button type="submit" class="px-6 py-3 bg-gradient-to-r from-blue-600 to-green-600 rounded-full">Enviar</button>
+  </form>
 </main>
 
 <footer class="bg-black/80 py-6 text-center text-gray-400 mt-10">

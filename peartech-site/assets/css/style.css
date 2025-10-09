@@ -7,7 +7,6 @@
 
 /* Corpo */
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
   background: #0d1117;
   color: #fff;
@@ -28,6 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -41,6 +41,7 @@ header {
   list-style: none;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .navbar a {
@@ -89,7 +90,7 @@ header {
   transform: scale(1.05);
 }
 
-/* Seção Produtos (cards na home) */
+/* Produtos */
 .produtos {
   padding: 50px 20px;
 }
@@ -138,6 +139,7 @@ header {
 
 .produto-detalhe img {
   max-width: 300px;
+  width: 100%;
   margin: 20px auto;
   display: block;
   border-radius: 15px;
@@ -193,4 +195,82 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
   color: #aaa;
+}
+/* Media Queries Responsivas */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .navbar ul {
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .grid {
+    gap: 15px;
+  }
+
+  .card {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+
+  .produto-detalhe h1 {
+    font-size: 2rem;
+  }
+
+  .produto-detalhe p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .produto-detalhe h1 {
+    font-size: 1.8rem;
+  }
+
+  .produto-detalhe p {
+    font-size: 1rem;
+  }
+
+  .form-feedback {
+    width: 90%;
+  }
 }

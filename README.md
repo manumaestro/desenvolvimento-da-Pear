@@ -2,22 +2,22 @@
 ---
 Bem-vindo ao repositório oficial da **Pear Tech**, a empresa que redefine o futuro da tecnologia móvel através da união de **Inovação com Tecnologia**.
 
-## Visão Geral da Pear Tech:
+## Visão Geral da Pear Tech 💻:
 
 * **Missão:** Desenvolver soluções que atendam e **superem as expectativas** de um público que valoriza **elegância, performance e excelência**.
 * **Conceito:** Nossa linha de produtos é projetada como um verdadeiro **símbolo de tecnologia**, representando **estilo, modernidade e confiança** com atenção a cada detalhe.
 
-### Público-Alvo e Mercado:
+### Público-Alvo e Mercado 👩‍💻:
 * **Público-Alvo:** Focamos na **classe alta**, que busca **exclusividade, sofisticação e tecnologia de ponta** e vê a inovação como um símbolo de *status* e identidade.
 * **Posicionamento:** A Pear Tech resolve a **fragmentação tecnológica** do mercado, oferecendo um sistema coeso e fluido, focado na experiência *premium*.
 
-## Diferencial Estratégico: O Ecossistema Inteligente
+## Diferencial Estratégico: O Ecossistema Inteligente 🖥️
 
 O diferencial competitivo da Pear Tech reside na criação de um **ecossistema inteligente**, onde todos os dispositivos (celulares, *notebooks*, *tablets*, fones e o inovador Pear Vision) funcionam de forma **integrada, com fluidez e simplicidade nativa**.
 
 * **Padrão de Qualidade:** Unimos **design minimalista**, experiência de uso intuitiva e tecnologia de ponta, com um forte compromisso com a **sustentabilidade** e um **suporte ao cliente de excelência**.
 
-### Software Proprietário:
+### Software Proprietário 🖱️:
 
 | Recurso | Descrição |
 | :--- | :--- |
@@ -26,7 +26,7 @@ O diferencial competitivo da Pear Tech reside na criação de um **ecossistema i
 
 ---
 
-## Linha de Produtos e Inovações:
+## Linha de Produtos e Inovações ⌨️:
 
 Desenvolvemos *hardware* de vanguarda com especificações de ponta:
 
@@ -38,17 +38,17 @@ Desenvolvemos *hardware* de vanguarda com especificações de ponta:
 | **PearBook** | Potência e Mobilidade. | *Notebooks* ultraleves e poderosos com autonomia de até **20 horas** de bateria. |
 | **PearVision** | Realidade Mista (AR/VR). | Dispositivo que transforma entretenimento e trabalho através da **realidade aumentada e virtual**. |
 
-### Acessórios:
+### Acessórios 📱:
 * **PearPods:** Fones de ouvido com **áudio cristalino** e **cancelamento ativo de ruído**.
 * **Outros:** Capas protetoras elegantes e carregadores com tecnologia de carregamento rápido e seguro.
 
-## Estratégia e Usabilidade:
+## Estratégia e Usabilidade 🖨️:
 * **Estratégia de Marketing:** Focada em **parcerias com influenciadores**, **marketing digital** e criação de **eventos interativos** que conectam inovação e emoção.
 * **Responsividade:** O *website* foi rigorosamente testado em *desktop* e celular para garantir **acessibilidade, usabilidade** e uma experiência de navegação consistente.
 
 ---
 
-## Contribuições Detalhadas da Equipe:
+## Contribuições Detalhadas da Equipe 👩🏻‍💻👩🏻‍💻👩🏻‍💻:
 
 O projeto foi desenvolvido de forma colaborativa, com responsabilidades-chave distribuídas por **Liderança Técnica**, **Design Visual** e **Gestão de Conteúdo/Prototipação**.
 
@@ -59,3 +59,4 @@ O projeto foi desenvolvido de forma colaborativa, com responsabilidades-chave di
 | **Maria Eduarda Braga** | **Prototipação Visual e Estrutura do Projeto** | **Conduziu a prototipação do dashboard no Figma**, assegurando a fidelidade visual e a experiência do usuário. Participou na **criação e *design* dos slides**. **Estruturou e organizou a documentação** técnica e o *business case*. |
 
 ---
+

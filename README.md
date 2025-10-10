@@ -36,10 +36,18 @@ Nós acreditamos que a inovação está na base do nosso desenvolvimento. Por is
 
 ---
 
+ ## Responsividade
+
+O site foi testado em desktop e celular para garantir acessibilidade, usabilidade e uma experiência de navegação consistente em diferentes dispositivos.
+
+---
+
 ## Contribuições da Equipe
 
-Este projeto é resultado da colaboração de uma equipe dedicada. Agradecemos o empenho de cada membro em suas respectivas áreas:
+Este projeto foi desenvolvido de forma colaborativa por todas as integrantes, com participação equilibrada nas principais frentes do trabalho:
 
-* **Nicolly Rodrigues de Souza Santos:** Foi uma das **principais responsáveis pelo desenvolvimento frontend em HTML e CSS** (juntamente com Manuela Maestro), atuou na **produção dos slides da apresentação** (juntamente com Maria Eduarda Braga), e liderou a equipe na fase de design e documentação, sendo a principal responsável pela prototipação do dashboard no Figma e pela criação e estruturação do arquivo README.md.
-* **Maria Eduarda Braga:** Contribuiu ativamente com a prototipação do dashboard no Figma e na **produção dos slides da apresentação** (juntamente com Nicolly Rodrigues de Souza Santos).
-* **Manuela Maestro:** Foi uma das **principais responsáveis pelo desenvolvimento frontend**, implementando o projeto em **HTML e CSS** (juntamente com Nicolly Rodrigues de Souza Santos).
+**Manuela Maestro:** Atuou no desenvolvimento frontend utilizando HTML e CSS, participou da criação do dashboard no Figma, ajudou na produção dos slides da apresentação e colaborou com a documentação do projeto.
+
+**Maria Eduarda Braga:** Atuou no desenvolvimento em HTML e CSS, participou na prototipação do dashboard no Figma, participou da criação dos slides da apresentação e colaborou na estruturação da documentação.
+
+**Nicolly Rodrigues de Souza Santos:** Atuou no desenvolvimento em HTML e CSS, participou da prototipação no Figma e produção de slides e colaborou com a organização da documentação do projeto.

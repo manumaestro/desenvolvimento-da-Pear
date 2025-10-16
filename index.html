@@ -332,7 +332,7 @@
       alert("CVV inválido. Deve conter 3 dígitos."); return;
     }
     if(address.length < 10){
-      alert("Por favor, informe um endereço válido."); return;
+      alert("Por favor, informe um endereço válido!"); return;
     }
 
     const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
